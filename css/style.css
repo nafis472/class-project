@@ -1,0 +1,458 @@
+/* common tag start*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,
+ol,
+button{
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+}
+.section_info h2{
+   font-size: 46px;
+   color: #02918c;
+   font-weight: 800;
+   text-transform: uppercase;
+}
+.section_info p{
+   font-size: 16px;
+   color: #7e8287;
+   line-height: 41px;
+}
+.section_info p b{
+   font-size: 23px;
+   font-weight: 800;
+}
+/* common tag end/
+
+/*nav strt*/
+nav{
+    background: #252e30;
+}
+#nav ul li a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    padding: 21px 25px;
+    text-transform: uppercase
+ }
+ #nav ul li:hover a{
+    color: #2ecc71;
+
+ }
+/*benner section strt*/
+#benner{
+    background: url(../image/cover.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+}
+#benner .container h1{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10% auto;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+#benner .container a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding:  21px 34px;
+}
+/*benner section end*/
+
+/*info section strt*/
+.about_item{
+    padding: 97px 0;
+}
+.about_item h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+    margin: 36px 0;
+}
+.about_item p{
+    font-size: 18px;
+    color: #566366;
+}
+/*info section end*/
+
+/*about section strt*/
+#about{
+    background-color: #f2f2f1;
+}
+.ab-info{
+    padding: 100px 0;
+}
+#about .ab-info h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #566366;
+    margin-bottom: 50px;
+    
+
+}
+#about .ab-info p{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#about .about-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0;
+    width: 100%;
+    margin-left: 98px;
+}
+#about .about-bottom .bottom-info{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 60px 38px 0;
+}
+#about .about-bottom .bottom-info img{
+   padding-right: 28px;
+}
+#about .about-bottom .bottom-info h4{
+    padding-bottom: 35px;
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about .about-bottom .bottom-info p{
+    width: 246px;
+    font-size: 18px;
+    color: #566366;
+}
+
+/*about section end*/
+
+#skill{
+    padding: 100px 0;
+}
+.skill-info h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+}
+.skill-info p{
+    font-size: 18px;
+    color: #566366;
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+.skill-info a{
+    font-size: 18px;
+    color: #33cc66;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #33cc66;
+    padding:  19px 37px;
+}
+.skill-bar .full{
+    width: 100%;
+    background: #f1f1f1;
+}
+.skill-bar h4{
+    font-size: 22px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 39px;
+    margin-bottom: 19px;
+}
+.skill-bar .photoshop{
+    width: 90%;
+    background: #2dcb71;
+    text-align: right;
+}
+.skill-bar .illustrator{
+    width: 80%;
+    background: #2dcb71;
+    text-align: right;
+}
+.skill-bar .html{
+    width: 90%;
+    background: #2dcb71;
+    text-align: right;
+}
+.skill-bar .php{
+    width: 70%;
+    background: #2dcb71;
+    text-align: right;
+}
+
+/*resume sectioendn start*/
+
+#resume{
+    background: #f2f2f1;
+    padding: 100px 0;
+}
+#resume .resume-info h3{
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+#resume .resume-info p{
+    font-size: 18px;
+    color: #566366;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#resume .resume-info a{
+    font-size: 18px;
+    color: #33cc66;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #33cc66;
+    padding:  19px 20px;
+}
+/*resume sectioendn end*/
+
+/*education sectioendn strt*/
+#education{
+    padding: 100px 0;
+}
+#education .left-info h3{
+    font-size: 30px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+#education .left-info p{
+    font-size: 18px;
+    color: #566366;
+}
+#education .right-info h4{
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#education .right-info p{
+    font-size: 18px;
+    color: #566366;
+    margin-bottom: 21px;
+}
+#education .right-info .gpa{
+    background: #2dcb71;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+}
+#education .hr{
+    color: #919191;
+}
+#education .right .info-2{
+    margin-top: 98px;
+}
+/*education sectioendn end*/
+
+/*w-experience sectioendn start*/
+#work-exp{
+    padding: 100px 0;
+}
+.left-info h3{
+    font-size: 30px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.left-info p{
+    font-size: 18px;
+    color: #566366;
+}
+.right-info h4{
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.right-info p{
+    font-size: 18px;
+    color: #566366;
+    margin-bottom: 21px;
+}
+.right-info .gpa{
+    background: #2dcb71;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+}
+.right-info.hr{
+    color: #919191;
+}
+.right-info{
+    margin-top: 20px;
+}
+.right-info p{
+    margin-top: 20px;
+}
+#w-experience .right .info-2{
+    margin-top: 98px;
+}
+/*w-experience sectioendn End*/
+
+/*EXP-BOX sectioendn start*/
+#exp-box{
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+.exp-box h4{
+    font-size: 18px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.exp-box p{
+    font-size: 24px;
+    color: #566366;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*EXP-BOX sectioendn start*/
+
+/*w-experience sectioendn end*/
+
+
+#mywork{
+    padding: 80px 0;
+}
+.work-info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+}
+.work-info p{
+    font-size: 18px;
+    color: #919191;
+    padding: 48px 80px;
+}
+#mywork .mywork_item{
+    position: relative
+}
+#mywork .mywork_item .overlay{
+    position: absolute;
+    background: rgba(45, 203, 112, 0.55);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .05s;
+}
+.mywork_item img{
+    padding-bottom: 40px;
+}
+#mywork .mywork_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+/*footer Section start*/
+#contact{
+    background: #252d2f;
+    padding: 100px 0;
+}
+.footer-info{
+    color: #fff;
+}
+.footer-info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 96px 0 40px;
+}
+.footer-info p{
+    font-size: 18px;
+    color: #919191;
+    width: 550px;
+}
+.footer-info address{
+    font-size: 18px;
+    color: #919191;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-form input,
+.footer-form textarea{
+    display: block;
+    width: 100%;
+    background: #4b5456;
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    color: #fff;
+}
+.footer-form label{
+    display: block;
+    margin: 39px 0 19px;
+    color: #fff;
+}
+.footer-form label span{
+    color: #919191;
+}
+.footer-form textarea{
+    resize: vertical;
+    height: 278px;
+}
+.footer-form button{
+    background: #191f21;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 22PX 52px;
+    border: none;
+}
+.password{
+    padding: 50px 0;
+}
+.password i{
+    color: #fff;
+}
+/*footer Section End*/
+
+#foter{
+    background: #191f21;
+    padding: 46px 0;
+}
+.foter_info h2{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b5456;
+    text-transform: uppercase;
+}
